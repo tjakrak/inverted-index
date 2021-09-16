@@ -25,6 +25,10 @@ public class QA extends GsonObject {
         return questionType;
     }
 
+    /**
+     * Setter for questionType
+     * @param questionType
+     */
     public void setQuestionType(String questionType) {
         this.questionType = questionType;
     }
@@ -37,6 +41,10 @@ public class QA extends GsonObject {
         return asin;
     }
 
+    /**
+     * Setter for asin
+     * @param asin
+     */
     public void setAsin(String asin) {
         this.asin = asin;
     }
@@ -49,6 +57,10 @@ public class QA extends GsonObject {
         return answerTime;
     }
 
+    /**
+     * Setter for answerTime
+     * @param answerTime
+     */
     public void setAnswerTime(String answerTime) {
         this.answerTime = answerTime;
     }
@@ -61,6 +73,10 @@ public class QA extends GsonObject {
         return unixTime;
     }
 
+    /**
+     * Setter for unixTime
+     * @param unixTime
+     */
     public void setUnixTime(int unixTime) {
         this.unixTime = unixTime;
     }
@@ -73,6 +89,10 @@ public class QA extends GsonObject {
         return question;
     }
 
+    /**
+     * Setter for question
+     * @param question
+     */
     public void setQuestion(String question) {
         this.question = question;
     }
@@ -85,6 +105,10 @@ public class QA extends GsonObject {
         return answer;
     }
 
+    /**
+     * Setter for answer
+     * @param answer
+     */
     public void setAnswer(String answer) {
         this.answer = answer;
     }

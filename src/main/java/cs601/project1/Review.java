@@ -33,6 +33,10 @@ public class Review extends GsonObject {
         return reviewerID;
     }
 
+    /**
+     * Setter for reviewerID
+     * @param reviewerID
+     */
     public void setReviewerID(String reviewerID) {
         this.reviewerID = reviewerID;
     }
@@ -45,6 +49,10 @@ public class Review extends GsonObject {
         return asin;
     }
 
+    /**
+     * Setter for asin
+     * @param asin
+     */
     public void setAsin(String asin) {
         this.asin = asin;
     }
@@ -57,6 +65,10 @@ public class Review extends GsonObject {
         return reviewerName;
     }
 
+    /**
+     * Setter for reviewerName
+     * @param reviewerName
+     */
     public void setReviewerName(String reviewerName) {
         this.reviewerName = reviewerName;
     }
@@ -69,6 +81,10 @@ public class Review extends GsonObject {
         return helpful;
     }
 
+    /**
+     * Setter for helpful
+     * @param helpful
+     */
     public void setHelpful(List<Integer> helpful) {
         this.helpful = helpful;
     }
@@ -81,6 +97,10 @@ public class Review extends GsonObject {
         return reviewText;
     }
 
+    /**
+     * Setter for reviewText
+     * @param reviewText
+     */
     public void setReviewText(String reviewText) {
         this.reviewText = reviewText;
     }
@@ -93,6 +113,10 @@ public class Review extends GsonObject {
         return overall;
     }
 
+    /**
+     * Setter for overall
+     * @param overall
+     */
     public void setOverall(double overall) {
         this.overall = overall;
     }
@@ -105,6 +129,10 @@ public class Review extends GsonObject {
         return summary;
     }
 
+    /**
+     * Setter for summary
+     * @param summary
+     */
     public void setSummary(String summary) {
         this.summary = summary;
     }
@@ -117,6 +145,10 @@ public class Review extends GsonObject {
         return unixReviewTime;
     }
 
+    /**
+     * Setter for unixReviewTime
+     * @param unixReviewTime
+     */
     public void setUnixReviewTime(int unixReviewTime) {
         this.unixReviewTime = unixReviewTime;
     }
@@ -129,6 +161,10 @@ public class Review extends GsonObject {
         return reviewTime;
     }
 
+    /**
+     * Setter for reviewTime
+     * @param reviewTime
+     */
     public void setReviewTime(String reviewTime) {
         this.reviewTime = reviewTime;
     }
